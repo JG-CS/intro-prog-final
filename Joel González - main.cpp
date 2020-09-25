@@ -5,7 +5,8 @@
     Purpose: This program will read data from a file containing randomized sequences. 
              It will normalize the data, and calculate the mean and standard deviation 
              for each sequence, as well as identify the smallest value throughout all 
-             the sequences.
+             the sequences. After the calculations, it will sort the values within each
+             sequence, and sort all sequences based on their mean values. 
 */
 
 #include <vector>
